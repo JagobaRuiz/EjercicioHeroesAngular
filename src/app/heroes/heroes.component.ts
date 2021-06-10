@@ -12,7 +12,7 @@ export class HeroesComponent implements OnInit {
 
   heroes: Hero[] = [];
 
-  selectedHero?: Hero;
+  selectedHero?: Hero; //La ? significa que puede estar vacío
 
   constructor(private heroService: HeroService, private messageService: MessageService) { }
 
